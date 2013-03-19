@@ -1,0 +1,16 @@
+Requirements:
+Input: the name of a compound in Simplified Molecular-Input Line-Entry System (SMILES) format.
+Output: the name of that compound in IUPAC Nomenclature.
+
+- handle the class of organic compounds known as alkanes (simple hydrocarbons) 
+- handle straight-chain and branched alkanes, i.e. no cyclics 
+- for the SMILES input, you don't need to worry about reading H, just Carbons (use the simplified syntax that assumes Hydrogens are implied).  
+- However, you will need to handle branching notation (parens).
+
+Example inputs:
+C
+CCC
+CC(CC)C
+C(C(C))C
+CCCC(C)CCCC(CC)CCCC(CCC)CCCC(C)CC
+etc..
